@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "values": [
+    "forgedinfire:glaive",
+    "tconstruct:pickaxe",
+    "tconstruct:sledge_hammer",
+    "tconstruct:cleaver",
+    "tconstruct:mattock",
+    "tconstruct:scythe",
+    "tconstruct:excavator",
+    "tconstruct:vein_hammer",
+    "tconstruct:pickadze",
+    "tconstruct:broad_axe",
+    "tconstruct:hand_axe",
+    "tconstruct:sword",
+    "tconstruct:dagger",
+    "tconstruct:kama",
+    "tconstruct:flint_and_brick"
+  ]
+}

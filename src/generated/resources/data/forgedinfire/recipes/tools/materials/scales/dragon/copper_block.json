@@ -1,0 +1,10 @@
+{
+  "type": "tconstruct:material",
+  "ingredient": {
+    "item": "iceandfire:dragonscale_copper"
+  },
+  "value": 9,
+  "needed": 1,
+  "material": "forgedinfire:dragon_scale#copper",
+  "leftover": "iceandfire:dragonscales_copper"
+}

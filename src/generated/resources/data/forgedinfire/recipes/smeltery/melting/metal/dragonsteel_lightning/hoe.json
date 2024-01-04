@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "item": "iceandfire:dragonsteel_lightning_hoe"
+  },
+  "result": {
+    "fluid": "forgedinfire:molten_lightning_dragonsteel",
+    "amount": 180
+  },
+  "temperature": 700,
+  "time": 80
+}

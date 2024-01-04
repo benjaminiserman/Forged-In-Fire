@@ -1,0 +1,7 @@
+{
+  "loader": "mantle:fluid_texture",
+  "textures": {
+    "still": "forgedinfire:block/fluid/molten_lightning_dragonsteel/still",
+    "flowing": "forgedinfire:block/fluid/molten_lightning_dragonsteel/flowing"
+  }
+}

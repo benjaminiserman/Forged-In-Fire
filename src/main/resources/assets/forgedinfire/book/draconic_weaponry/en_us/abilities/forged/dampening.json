@@ -1,0 +1,14 @@
+{
+  "modifier_id": "forgedinfire:dampening",
+  "text": [
+    {
+      "text": "Mythical creatures harassing you? Good thing they're vulnerable to silver!"
+    }
+  ],
+  "effects": [
+    "Deals bonus damage to Mythical creatures",
+    "Does NOT deal bonus damage to Dread creatures",
+    "Three levels with different recipes",
+    "Only first level requires 1 ability slot"
+  ]
+}

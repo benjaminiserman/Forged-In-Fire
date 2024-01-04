@@ -20,6 +20,7 @@ import slimeknights.tconstruct.common.registration.ItemDeferredRegisterExtension
 import slimeknights.tconstruct.library.client.data.material.GeneratorPartTextureJsonGenerator;
 import slimeknights.tconstruct.library.client.data.material.MaterialPartTextureGenerator;
 import slimeknights.tconstruct.library.tools.item.ModifiableItem;
+import slimeknights.tconstruct.tools.TinkerTools;
 
 import static slimeknights.tconstruct.smeltery.TinkerSmeltery.TAB_SMELTERY;
 import static slimeknights.tconstruct.tools.TinkerTools.TAB_TOOLS;
@@ -31,6 +32,7 @@ public class ForgedTools {
 
     private static final Item.Properties TOOL = new Item.Properties().stacksTo(1).tab(TAB_TOOLS);
     public static final ItemObject<ModifiableItem> glaive = ITEMS.register("glaive", () -> new ModifiableGlaiveItem(TOOL, ForgedToolDefinitions.GLAIVE));
+    
     @SubscribeEvent
     void gatherData(final GatherDataEvent event) {
         DataGenerator generator = event.getGenerator();

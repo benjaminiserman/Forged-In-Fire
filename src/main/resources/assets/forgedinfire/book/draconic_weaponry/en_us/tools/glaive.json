@@ -1,0 +1,20 @@
+{
+  "tool": "forgedinfire:glaive",
+  "text": [
+    {
+      "text": "The Glaive is a long range, medium damage weapon. Useful for fighting mythical beasts."
+    },
+    {
+      "text": "\n"
+    },
+    {
+      "text": "Forbidden Screwdriver",
+      "paragraph": true
+    }
+  ],
+  "properties": [
+    "Strong Weapon",
+    "Long Range",
+    "Starts with Reach II"
+  ]
+}

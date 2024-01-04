@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:casting_basin",
+  "fluid": {
+    "tag": "forge:molten_fire_dragonsteel",
+    "amount": 810
+  },
+  "result": "iceandfire:dragonsteel_fire_block",
+  "cooling_time": 171
+}

@@ -12,5 +12,42 @@
     "icon": {
       "item": "iceandfire:dragonsteel_fire_ingot"
     }
+  },
+  {
+    "name": "ranged_materials",
+    "extraData": { "tconstruct:material_tier": { "type": "tconstruct:ranged", "tier": 7 } },
+    "icon": {
+      "item": "iceandfire:dragonsteel_ice_ingot"
+    }
+  },
+  {
+    "name": "tools",
+    "data": "sections/tools.json",
+    "icon": {
+      "item": {
+        "type": "forge:nbt",
+        "item": "forgedinfire:glaive",
+        "nbt": {
+          "tic_broken": false,
+          "tic_display": true,
+          "Damage": 0,
+          "tic_materials": [
+            "tconstruct:ui_render#head",
+            "tconstruct:ui_render#handle",
+            "tconstruct:ui_render#accessory",
+            "tconstruct:ui_render#grip"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "abilities",
+    "data": "sections/abilities.json",
+    "icon": {
+      "item": {
+        "item": "iceandfire:dread_shard"
+      }
+    }
   }
 ]

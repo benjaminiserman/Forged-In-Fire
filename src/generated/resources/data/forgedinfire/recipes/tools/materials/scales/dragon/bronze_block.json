@@ -1,0 +1,10 @@
+{
+  "type": "tconstruct:material",
+  "ingredient": {
+    "item": "iceandfire:dragonscale_bronze"
+  },
+  "value": 9,
+  "needed": 1,
+  "material": "forgedinfire:dragon_scale#bronze",
+  "leftover": "iceandfire:dragonscales_bronze"
+}

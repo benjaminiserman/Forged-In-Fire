@@ -18,8 +18,11 @@ public class ForgedCommons{
     public static final ItemDeferredRegisterExtension ITEMS = new ItemDeferredRegisterExtension(ForgedInFire.MOD_ID);
 
     private static final Item.Properties BOOK = new Item.Properties().tab(TAB_GENERAL).stacksTo(1);
+    private static final Item.Properties NUGGET = new Item.Properties().tab(TAB_GENERAL).stacksTo(64);
     public static final ItemObject<ForgedBookItem> draconicWeaponry = ITEMS.register("draconic_weaponry", () -> new ForgedBookItem(BOOK, ForgedBookItem.BookType.DRACONIC_WEAPONRY));
-
+    public static final ItemObject<Item> fireDragonsteelNugget = ITEMS.register("dragonsteel_fire_nugget", () -> new Item(NUGGET));
+    public static final ItemObject<Item> iceDragonsteelNugget = ITEMS.register("dragonsteel_ice_nugget", () -> new Item(NUGGET));
+    public static final ItemObject<Item> lightningDragonsteelNugget = ITEMS.register("dragonsteel_lightning_nugget", () -> new Item(NUGGET));
 
     @SubscribeEvent
     void gatherData(final GatherDataEvent event) {

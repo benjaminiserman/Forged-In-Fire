@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:material",
+  "ingredient": {
+    "tag": "forge:storage_blocks/dragonsteel_fire"
+  },
+  "value": 9,
+  "needed": 1,
+  "material": "forgedinfire:fire_dragonsteel",
+  "leftover": {
+    "tag": "forge:ingots/dragonsteel_fire"
+  }
+}

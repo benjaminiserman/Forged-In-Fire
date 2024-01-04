@@ -1,0 +1,11 @@
+[
+  {
+    "name": "group_forged",
+    "type": "mantle:text",
+    "data": "abilities/forged.json"
+  },
+  {
+    "type": "tconstruct:modifier",
+    "data": "abilities/forged/dampening.json"
+  }
+]

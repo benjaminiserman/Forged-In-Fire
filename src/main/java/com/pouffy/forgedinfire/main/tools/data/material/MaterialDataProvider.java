@@ -15,12 +15,11 @@ public class MaterialDataProvider extends AbstractMaterialDataProvider {
 
     @Override
     protected void addMaterials() {
-        addMaterial(MaterialIds.dragon_bone,   7, ORDER_COMPAT, true);
-        addMaterial(MaterialIds.wither_bone,   7, ORDER_COMPAT, true);
-        addMaterial(MaterialIds.dragon_scale, 7, ORDER_COMPAT, true);
-        addMaterial(MaterialIds.fireDragonsteel, 7, ORDER_COMPAT, false);
-        addMaterial(MaterialIds.iceDragonsteel, 7, ORDER_COMPAT, false);
-        addMaterial(MaterialIds.lightningDragonsteel, 7, ORDER_COMPAT, false);
+        addMaterial(ForgedMaterialIds.dragon_bone,   7, ORDER_COMPAT, true);
+        addMaterial(ForgedMaterialIds.dragon_scale, 7, ORDER_COMPAT, true);
+        addMaterial(ForgedMaterialIds.fireDragonsteel, 7, ORDER_COMPAT, false);
+        addMaterial(ForgedMaterialIds.iceDragonsteel, 7, ORDER_COMPAT, false);
+        addMaterial(ForgedMaterialIds.lightningDragonsteel, 7, ORDER_COMPAT, false);
 
     }
 }

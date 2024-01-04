@@ -1,0 +1,22 @@
+{
+  "forgedinfire:dampening": {
+    "type": "tconstruct:normal",
+    "luminosity": 5
+  },
+  "forgedinfire:flamed": {
+    "type": "tconstruct:normal",
+    "luminosity": 5
+  },
+  "forgedinfire:iced": {
+    "type": "tconstruct:normal",
+    "luminosity": 5
+  },
+  "forgedinfire:lightning": {
+    "type": "tconstruct:normal",
+    "luminosity": 5
+  },
+  "forgedinfire:dreadbane": {
+    "type": "tconstruct:normal",
+    "luminosity": 5
+  }
+}

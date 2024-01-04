@@ -1,0 +1,13 @@
+{
+  "type": "tconstruct:casting_table",
+  "cast": {
+    "tag": "tconstruct:casts/single_use/ingot"
+  },
+  "cast_consumed": true,
+  "fluid": {
+    "tag": "forge:molten_ice_dragonsteel",
+    "amount": 90
+  },
+  "result": "iceandfire:dragonsteel_ice_ingot",
+  "cooling_time": 57
+}

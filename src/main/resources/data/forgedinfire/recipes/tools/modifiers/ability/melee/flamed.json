@@ -1,0 +1,26 @@
+{
+  "type": "tconstruct:modifier",
+  "inputs": [
+    {
+      "item": "iceandfire:fire_dragon_heart"
+    },
+    {
+      "item": "iceandfire:dragonsteel_fire_ingot"
+    },
+    {
+      "item": "iceandfire:fire_dragon_blood"
+    }
+  ],
+  "tools": {
+    "tag": "forgedinfire:modifiable/handheld_melee"
+  },
+  "slots": {
+    "abilities": 1
+  },
+  "allow_crystal": true,
+  "result": {
+    "name": "forgedinfire:flamed",
+    "level": 1
+  },
+  "max_level": 1
+}

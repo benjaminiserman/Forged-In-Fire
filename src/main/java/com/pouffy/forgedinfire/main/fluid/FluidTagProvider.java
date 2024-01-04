@@ -16,6 +16,8 @@ public class FluidTagProvider extends FluidTagsProvider {
     @Override
     public void addTags() {
         tagAll(ForgedFluids.moltenFireDragonsteel);
+        tagAll(ForgedFluids.moltenIceDragonsteel);
+        tagAll(ForgedFluids.moltenLightningDragonsteel);
         tagAll(ForgedFluids.fireBlood);
         tagAll(ForgedFluids.iceBlood);
         tagAll(ForgedFluids.lightningBlood);

@@ -1,0 +1,34 @@
+{
+  "type": "tconstruct:modifier",
+  "inputs": [
+    {
+      "tag": "forge:storage_blocks/sapphire"
+    },
+    {
+      "item": "iceandfire:sea_serpent_fang"
+    },
+    {
+      "tag": "forge:storage_blocks/sapphire"
+    },
+    {
+      "tag": "forge:storage_blocks/silver"
+    },
+    {
+      "tag": "forge:storage_blocks/silver"
+    }
+  ],
+  "tools": {
+    "tag": "tconstruct:modifiable/melee_or_unarmed"
+  },
+  "requirements": {
+    "name": "forgedinfire:dampening",
+    "level": 2,
+    "error": "recipe.forgedinfire.modifier.dampening.level_3"
+  },
+  "allow_crystal": true,
+  "result": {
+    "name": "forgedinfire:dampening",
+    "level": 1
+  },
+  "max_level": 3
+}

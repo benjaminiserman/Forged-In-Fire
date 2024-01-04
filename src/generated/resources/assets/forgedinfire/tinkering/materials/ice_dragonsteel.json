@@ -1,0 +1,54 @@
+{
+  "fallbacks": [
+    "bone",
+    "metal"
+  ],
+  "color": "BAEAEC",
+  "luminosity": 2,
+  "generator": {
+    "transformer": {
+      "type": "tconstruct:grey_to_sprite",
+      "palette": [
+        {
+          "grey": 0,
+          "color": "FF000000"
+        },
+        {
+          "grey": 63,
+          "color": "FF4D6465",
+          "path": "forgedinfire:item/materials/generator/icedsteel_63"
+        },
+        {
+          "grey": 102,
+          "path": "forgedinfire:item/materials/generator/icedsteel_102"
+        },
+        {
+          "grey": 140,
+          "color": "FFA1E7E0",
+          "path": "forgedinfire:item/materials/generator/icedsteel_140"
+        },
+        {
+          "grey": 178,
+          "path": "forgedinfire:item/materials/generator/icedsteel_178"
+        },
+        {
+          "grey": 216,
+          "color": "FFBAEAEC"
+        },
+        {
+          "grey": 255,
+          "color": "FFFFFFFF"
+        }
+      ]
+    },
+    "supportedStats": [
+      "tconstruct:head",
+      "tconstruct:handle",
+      "tconstruct:extra",
+      "tconstruct:repair_kit",
+      "tconstruct:limb",
+      "tconstruct:grip"
+    ],
+    "ignoreMaterialStats": false
+  }
+}

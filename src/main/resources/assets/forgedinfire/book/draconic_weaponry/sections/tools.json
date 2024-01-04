@@ -1,0 +1,8 @@
+
+[
+  {
+    "name": "glaive",
+    "type": "tconstruct:tool",
+    "data": "tools/glaive.json"
+  }
+]

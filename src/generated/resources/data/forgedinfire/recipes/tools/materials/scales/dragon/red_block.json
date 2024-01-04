@@ -1,0 +1,10 @@
+{
+  "type": "tconstruct:material",
+  "ingredient": {
+    "item": "iceandfire:dragonscale_red"
+  },
+  "value": 9,
+  "needed": 1,
+  "material": "forgedinfire:dragon_scale#red",
+  "leftover": "iceandfire:dragonscales_red"
+}

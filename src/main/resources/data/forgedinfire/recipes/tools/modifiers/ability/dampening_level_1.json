@@ -1,0 +1,32 @@
+{
+  "type": "tconstruct:modifier",
+  "inputs": [
+    {
+      "tag": "forge:gems/sapphire"
+    },
+    {
+      "item": "iceandfire:dragonbone"
+    },
+    {
+      "tag": "forge:gems/sapphire"
+    },
+    {
+      "tag": "forge:ingots/silver"
+    },
+    {
+      "tag": "forge:ingots/silver"
+    }
+  ],
+  "tools": {
+    "tag": "tconstruct:modifiable/melee_or_unarmed"
+  },
+  "slots": {
+    "abilities": 1
+  },
+  "allow_crystal": true,
+  "result": {
+    "name": "forgedinfire:dampening",
+    "level": 1
+  },
+  "max_level": 1
+}

@@ -1,2 +1,6 @@
 intro=Introduction
-mythological_materials=Tier 7 Mythological Materials
+mythological_materials=Mythological Materials
+mythological_materials.subtext=These materials can be created with the loot from Mystical Creatures.
+tools=Tools
+abilities=Abilities
+abilities.group_forged=Slayer

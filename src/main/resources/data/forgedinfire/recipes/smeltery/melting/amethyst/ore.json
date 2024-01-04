@@ -1,0 +1,19 @@
+{
+  "type": "tconstruct:ore_melting",
+  "rate": "gem",
+  "ingredient": {
+    "item": "iceandfire:amythest_ore"
+  },
+  "result": {
+    "fluid": "tconstruct:molten_amethyst",
+    "amount": 150
+  },
+  "temperature": 950,
+  "time": 194,
+  "byproducts": [
+    {
+      "fluid": "tconstruct:molten_quartz",
+      "amount": 150
+    }
+  ]
+}

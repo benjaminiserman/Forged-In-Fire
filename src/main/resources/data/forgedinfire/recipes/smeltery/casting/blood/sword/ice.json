@@ -1,0 +1,13 @@
+{
+  "type": "tconstruct:casting_table",
+  "cast": {
+    "item": "iceandfire:dragonbone_sword"
+  },
+  "cast_consumed": true,
+  "fluid": {
+    "tag": "forgedinfire:ice_dragon_blood",
+    "amount": 250
+  },
+  "result": "iceandfire:dragonbone_sword_ice",
+  "cooling_time": 200
+}

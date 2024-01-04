@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:casting_basin",
+  "fluid": {
+    "tag": "forge:molten_lightning_dragonsteel",
+    "amount": 810
+  },
+  "result": "iceandfire:dragonsteel_lightning_block",
+  "cooling_time": 171
+}

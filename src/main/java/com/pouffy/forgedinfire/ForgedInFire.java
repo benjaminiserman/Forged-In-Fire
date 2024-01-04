@@ -8,9 +8,13 @@ import com.pouffy.forgedinfire.main.fluid.FluidTagProvider;
 import com.pouffy.forgedinfire.main.fluid.ForgedFluids;
 import com.pouffy.forgedinfire.main.item.book.ForgedBookIDs;
 import com.pouffy.forgedinfire.main.tools.ForgedTools;
+import com.pouffy.forgedinfire.main.tools.data.SmelteryRecipeProvider;
 import com.pouffy.forgedinfire.main.tools.data.tags.BlockTagProvider;
 import com.pouffy.forgedinfire.main.tools.data.tags.ItemTagProvider;
+import com.pouffy.forgedinfire.main.tools.modifiers.ForgedModifiers;
 import net.minecraft.data.DataGenerator;
+import net.minecraft.network.chat.MutableComponent;
+import net.minecraft.network.chat.TranslatableComponent;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
@@ -36,6 +40,9 @@ import java.util.stream.Collectors;
 
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod("forgedinfire")
+@Mod.EventBusSubscriber(
+        bus = Mod.EventBusSubscriber.Bus.MOD
+)
 public class ForgedInFire
 {
     // Directly reference a slf4j logger
@@ -59,6 +66,7 @@ public class ForgedInFire
         ForgedTools.ITEMS.register(bus);
         ForgedFluids.FLUIDS.register(bus);
         ForgedCommons.ITEMS.register(bus);
+        ForgedModifiers.MODIFIERS.register(bus);
         ForgedBookIDs.registerCommandSuggestion();
         DistExecutor.unsafeRunWhenOn(Dist.CLIENT, () -> ForgedClient::onForged);
         ForgedTags.init();
@@ -67,11 +75,10 @@ public class ForgedInFire
     static void gatherData(final GatherDataEvent event) {
         DataGenerator datagenerator = event.getGenerator();
         ExistingFileHelper existingFileHelper = event.getExistingFileHelper();
-        if (event.includeServer()) {
-            BlockTagProvider blockTags = new BlockTagProvider(datagenerator, existingFileHelper);
-            datagenerator.addProvider(new ItemTagProvider(datagenerator, blockTags, existingFileHelper));
-            datagenerator.addProvider(new FluidTagProvider(datagenerator, existingFileHelper));
-        }
+        datagenerator.addProvider(new SmelteryRecipeProvider(datagenerator));
+        BlockTagProvider blockTags = new BlockTagProvider(datagenerator, existingFileHelper);
+        datagenerator.addProvider(new ItemTagProvider(datagenerator, blockTags, existingFileHelper));
+        datagenerator.addProvider(new FluidTagProvider(datagenerator, existingFileHelper));
     }
 
     private void setup(final FMLCommonSetupEvent event)
@@ -117,6 +124,9 @@ public class ForgedInFire
     }
     public static String makeTranslationKey(String base, String name) {
         return Util.makeTranslationKey(base, getResource(name));
+    }
+    public static MutableComponent makeTranslation(String base, String name) {
+        return new TranslatableComponent(makeTranslationKey(base, name));
     }
     public static ResourceLocation getResource(String name) {
         return new ResourceLocation("forgedinfire", name);

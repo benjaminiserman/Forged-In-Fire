@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_fluid",
+  "fluid": {
+    "tag": "forgedinfire:molten_ice_dragonsteel",
+    "amount": 90
+  },
+  "temperature": 700,
+  "output": "forgedinfire:ice_dragonsteel"
+}

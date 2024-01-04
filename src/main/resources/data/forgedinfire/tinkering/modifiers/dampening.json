@@ -1,0 +1,17 @@
+{
+  "type": "tconstruct:conditional_damage",
+  "entity": {
+    "type": "tconstruct:or",
+    "predicates": [
+      {
+        "type": "tconstruct:tag",
+        "tag": "forgedinfire:mythical"
+      }
+    ]
+  },
+  "damage": 3.5,
+  "effect": {
+    "name": "minecraft:weakness",
+    "level": 4
+  }
+}

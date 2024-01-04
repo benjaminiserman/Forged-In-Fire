@@ -1,0 +1,10 @@
+{
+  "type": "tconstruct:material",
+  "ingredient": {
+    "item": "iceandfire:dragonscale_green"
+  },
+  "value": 9,
+  "needed": 1,
+  "material": "forgedinfire:dragon_scale#emerald",
+  "leftover": "iceandfire:dragonscales_green"
+}

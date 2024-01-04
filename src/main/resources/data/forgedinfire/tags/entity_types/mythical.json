@@ -1,0 +1,26 @@
+{
+  "replace": false,
+  "values": [
+    "iceandfire:troll",
+    "iceandfire:amphithere",
+    "iceandfire:cockatrice",
+    "iceandfire:cyclops",
+    "iceandfire:deathworm",
+    "iceandfire:fire_dragon",
+    "iceandfire:ice_dragon",
+    "iceandfire:lightning_dragon",
+    "iceandfire:gorgon",
+    "iceandfire:hippocampus",
+    "iceandfire:hippogryph",
+    "iceandfire:hydra",
+    "iceandfire:pixie",
+    "iceandfire:sea_serpent",
+    "iceandfire:siren",
+    "iceandfire:myrmex_queen",
+    "iceandfire:myrmex_royal",
+    "iceandfire:myrmex_sentinel",
+    "iceandfire:myrmex_soldier",
+    "iceandfire:myrmex_swarmer",
+    "iceandfire:myrmex_worker"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "type": "tconstruct:conditional_damage",
+  "entity": {
+    "type": "tconstruct:or",
+    "predicates": [
+      {
+        "type": "tconstruct:tag",
+        "tag": "forgedinfire:dread"
+      }
+    ]
+  },
+  "damage": 1.5,
+  "effect": {
+    "name": "minecraft:wither",
+    "level": 1
+  }
+}

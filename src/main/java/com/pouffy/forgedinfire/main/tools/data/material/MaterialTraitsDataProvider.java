@@ -3,6 +3,7 @@ package com.pouffy.forgedinfire.main.tools.data.material;
 import net.minecraft.data.DataGenerator;
 import slimeknights.tconstruct.library.data.material.AbstractMaterialDataProvider;
 import slimeknights.tconstruct.library.data.material.AbstractMaterialTraitDataProvider;
+import slimeknights.tconstruct.library.modifiers.ModifierId;
 import slimeknights.tconstruct.tools.TinkerModifiers;
 
 public class MaterialTraitsDataProvider extends AbstractMaterialTraitDataProvider {
@@ -16,11 +17,10 @@ public class MaterialTraitsDataProvider extends AbstractMaterialTraitDataProvide
     }
     @Override
     protected void addMaterialTraits() {
-        addDefaultTraits(MaterialIds.dragon_scale, TinkerModifiers.fiery);
-        addDefaultTraits(MaterialIds.dragon_bone, TinkerModifiers.firestarter);
-        addDefaultTraits(MaterialIds.wither_bone, TinkerModifiers.necrotic);
-        addDefaultTraits(MaterialIds.fireDragonsteel, TinkerModifiers.fiery);
-        addDefaultTraits(MaterialIds.iceDragonsteel, TinkerModifiers.freezing);
-        addDefaultTraits(MaterialIds.lightningDragonsteel, TinkerModifiers.necrotic);
+        addDefaultTraits(ForgedMaterialIds.dragon_scale, TinkerModifiers.fiery);
+        addDefaultTraits(ForgedMaterialIds.dragon_bone, TinkerModifiers.firestarter);
+        addDefaultTraits(ForgedMaterialIds.fireDragonsteel, ModifierId.tryParse("forgedinfire:flamed"));
+        addDefaultTraits(ForgedMaterialIds.iceDragonsteel, ModifierId.tryParse("forgedinfire:iced"));
+        addDefaultTraits(ForgedMaterialIds.lightningDragonsteel, ModifierId.tryParse("forgedinfire:lightning"));
     }
 }

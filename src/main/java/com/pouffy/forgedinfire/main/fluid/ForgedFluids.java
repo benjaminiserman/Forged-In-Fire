@@ -35,6 +35,8 @@ public class ForgedFluids {
     public static final FluidObject<ForgeFlowingFluid> iceBlood = registerSlime("ice_dragon_blood", 0);
     public static final FluidObject<ForgeFlowingFluid> lightningBlood = registerSlime("lightning_dragon_blood", 0);
     public static final FluidObject<ForgeFlowingFluid> moltenFireDragonsteel = register("molten_fire_dragonsteel", 4);
+    public static final FluidObject<ForgeFlowingFluid> moltenIceDragonsteel = register("molten_ice_dragonsteel", 4);
+    public static final FluidObject<ForgeFlowingFluid> moltenLightningDragonsteel = register("molten_lightning_dragonsteel", 4);
 
 
     /** Creates a builder for a cool fluid with textures */

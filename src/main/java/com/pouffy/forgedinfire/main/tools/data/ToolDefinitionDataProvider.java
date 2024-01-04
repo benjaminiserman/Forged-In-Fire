@@ -7,6 +7,7 @@ import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.ToolActions;
 import slimeknights.tconstruct.common.TinkerTags;
 import slimeknights.tconstruct.library.data.tinkering.AbstractToolDefinitionDataProvider;
+import slimeknights.tconstruct.library.modifiers.ModifierId;
 import slimeknights.tconstruct.library.tools.definition.harvest.IHarvestLogic;
 import slimeknights.tconstruct.library.tools.definition.harvest.ModifiedHarvestLogic;
 import slimeknights.tconstruct.library.tools.stat.ToolStats;
@@ -35,6 +36,7 @@ public class ToolDefinitionDataProvider extends AbstractToolDefinitionDataProvid
                 .largeToolStartingSlots()
                 // traits
                 .trait(TinkerModifiers.aoeSilkyShears)
+                .trait(ModifierId.tryParse("tconstruct:reach"), 2)
                 // behavior
                 .action(ToolActions.SWORD_DIG);
     }

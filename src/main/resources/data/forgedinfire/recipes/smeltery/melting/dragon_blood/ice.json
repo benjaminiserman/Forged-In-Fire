@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "item": "iceandfire:ice_dragon_heart"
+  },
+  "result": {
+    "fluid": "forgedinfire:ice_dragon_blood",
+    "amount": 500
+  },
+  "temperature": 1000,
+  "time": 80
+}

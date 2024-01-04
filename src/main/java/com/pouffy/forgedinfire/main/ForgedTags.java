@@ -23,7 +23,9 @@ public class ForgedTags {
 
         public static final TagKey<Item> DRAGON_SCALES = tag("dragon_scales");
         public static final TagKey<Item> DRAGONSTEEL = tag("dragonsteel");
-
+        public static final TagKey<Item> dragonsteelFire = tag("fire_dragonsteel");
+        public static final TagKey<Item> dragonsteelIce = tag("ice_dragonsteel");
+        public static final TagKey<Item> dragonsteelLightning = tag("lightning_dragonsteel");
         private static TagKey<Item> tag(String name) {
             return TagKey.create(Registry.ITEM_REGISTRY, ForgedInFire.getResource(name));
         }

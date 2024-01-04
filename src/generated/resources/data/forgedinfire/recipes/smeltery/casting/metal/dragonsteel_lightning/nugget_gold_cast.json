@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:casting_table",
+  "cast": {
+    "tag": "tconstruct:casts/multi_use/nugget"
+  },
+  "fluid": {
+    "tag": "forge:molten_lightning_dragonsteel",
+    "amount": 10
+  },
+  "result": "forgedinfire:dragonsteel_lightning_nugget",
+  "cooling_time": 19
+}

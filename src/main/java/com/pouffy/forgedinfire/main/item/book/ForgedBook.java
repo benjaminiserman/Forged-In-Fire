@@ -46,7 +46,6 @@ public class ForgedBook extends BookData {
         //ModifierSectionTransformer upgrades = new ModifierSectionTransformer("upgrades");
         ModifierSectionTransformer defense = new ModifierSectionTransformer("defense");
         ModifierSectionTransformer slotless = new ModifierSectionTransformer("slotless");
-        //ModifierSectionTransformer abilities = new ModifierSectionTransformer("abilities");
         //DRACONIC_WEAPONRY.addTransformer(upgrades);
         DRACONIC_WEAPONRY.addTransformer(slotless);
         DRACONIC_WEAPONRY.addTransformer(defense);

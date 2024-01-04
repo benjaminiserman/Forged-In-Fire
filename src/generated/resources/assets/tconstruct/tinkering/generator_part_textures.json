@@ -1,0 +1,45 @@
+{
+  "replace": false,
+  "parts": [
+    {
+      "path": "forgedinfire:item/tool/glaive/head",
+      "statType": "tconstruct:head"
+    },
+    {
+      "path": "forgedinfire:item/tool/glaive/grip",
+      "statType": "tconstruct:handle"
+    },
+    {
+      "path": "forgedinfire:item/tool/glaive/broken_head",
+      "statType": "tconstruct:head"
+    },
+    {
+      "path": "forgedinfire:item/tool/glaive/handle",
+      "statType": "tconstruct:handle"
+    },
+    {
+      "path": "forgedinfire:item/tool/glaive/accessory",
+      "statType": "tconstruct:extra"
+    },
+    {
+      "path": "forgedinfire:item/tool/glaive/large/head",
+      "statType": "tconstruct:head"
+    },
+    {
+      "path": "forgedinfire:item/tool/glaive/large/grip",
+      "statType": "tconstruct:handle"
+    },
+    {
+      "path": "forgedinfire:item/tool/glaive/large/broken_head",
+      "statType": "tconstruct:head"
+    },
+    {
+      "path": "forgedinfire:item/tool/glaive/large/handle",
+      "statType": "tconstruct:handle"
+    },
+    {
+      "path": "forgedinfire:item/tool/glaive/large/accessory",
+      "statType": "tconstruct:extra"
+    }
+  ]
+}

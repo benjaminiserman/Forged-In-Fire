@@ -1,0 +1,7 @@
+{
+  "forgedinfire:dampening":   "forgedinfire:gui/modifiers/dampening",
+  "forgedinfire:flamed":   "forgedinfire:gui/modifiers/flamed",
+  "forgedinfire:iced":   "forgedinfire:gui/modifiers/iced",
+  "forgedinfire:lightning":   "forgedinfire:gui/modifiers/lightning",
+  "forgedinfire:dreadbane":   "forgedinfire:gui/modifiers/dreadbane"
+}

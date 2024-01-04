@@ -1,0 +1,34 @@
+{
+  "type": "tconstruct:modifier",
+  "inputs": [
+    {
+      "tag": "forge:gems/sapphire"
+    },
+    {
+      "item": "iceandfire:manuscript"
+    },
+    {
+      "tag": "forge:gems/sapphire"
+    },
+    {
+      "tag": "forge:storage_blocks/silver"
+    },
+    {
+      "tag": "forge:storage_blocks/silver"
+    }
+  ],
+  "tools": {
+    "tag": "tconstruct:modifiable/melee_or_unarmed"
+  },
+  "requirements": {
+    "name": "forgedinfire:dampening",
+    "level": 1,
+    "error": "recipe.forgedinfire.modifier.dampening.level_2"
+  },
+  "allow_crystal": true,
+  "result": {
+    "name": "forgedinfire:dampening",
+    "level": 1
+  },
+  "max_level": 2
+}

@@ -19,8 +19,51 @@
   "material.forgedinfire.lightning_dragonsteel": "Lightning Dragonsteel",
   "material.forgedinfire.wither_bone": "Witherbone",
 
+  "modifier.forgedinfire.dampening": "Dampening",
+  "modifier.forgedinfire.dampening.1": "Dampening I",
+  "modifier.forgedinfire.dampening.2": "Dampening II",
+  "modifier.forgedinfire.dampening.3": "Dampening III",
+  "modifier.forgedinfire.dampening.flavor": "Begone foul magic!",
+  "modifier.forgedinfire.dampening.description": "Deals extra damage to mystical creatures.",
+  "recipe.forgedinfire.modifier.dampening.level_2": "Dampening requires a different recipe for the first level.",
+  "recipe.forgedinfire.modifier.dampening.level_3": "Dampening requires a different recipe for the first two levels.",
+  "modifier.forgedinfire.dampening.attack_damage": "Dampening Damage",
+
+  "modifier.forgedinfire.flamed": "Flamed",
+  "modifier.forgedinfire.flamed.flavor": "Burns with the fires of hell!",
+  "modifier.forgedinfire.flamed.description": "Ignites and knocks back targets.",
+  "modifier.forgedinfire.flamed.attack_bonus": "Damage against Ice Dragons",
+  "modifier.forgedinfire.iced" : "Iced",
+  "modifier.forgedinfire.iced.flavor": "Freezes the blood in your veins!",
+  "modifier.forgedinfire.iced.description": "Freezes targets.",
+  "modifier.forgedinfire.iced.attack_bonus": "Damage against Fire Dragons",
+  "modifier.forgedinfire.lightning": "Lightning",
+  "modifier.forgedinfire.lightning.flavor": "Strikes with the power of the gods!",
+  "modifier.forgedinfire.lightning.description": "Strikes targets with lightning.",
+  "modifier.forgedinfire.lightning.attack_bonus": "Damage against Fire Dragons and Ice Dragons",
+  "modifier.forgedinfire.dreadbane": "Dreadbane",
+  "modifier.forgedinfire.dreadbane.flavor": "The dreadful power of shards.",
+  "modifier.forgedinfire.dreadbane.description": "Deals extra damage to Dread Creatures.",
+
 
   "item.forgedinfire.draconic_weaponry": "Draconic Weaponry",
   "item.forgedinfire.glaive": "Glaive",
-  "item.forgedinfire.glaive.description": "A Glaive is a long polearm with a sharp, single-edged blade at the end."
+  "item.forgedinfire.glaive.description": "A Glaive is a long polearm with a sharp, single-edged blade at the end.",
+
+  "item.forgedinfire.dragonsteel_fire_nugget": "Fire Dragonsteel Nugget",
+  "item.forgedinfire.dragonsteel_ice_nugget": "Ice Dragonsteel Nugget",
+  "item.forgedinfire.dragonsteel_lightning_nugget": "Lightning Dragonsteel Nugget",
+
+  "fluid.forgedinfire.fire_dragon_blood": "Fire Dragon Blood",
+  "fluid.forgedinfire.ice_dragon_blood": "Ice Dragon Blood",
+  "fluid.forgedinfire.lightning_dragon_blood": "Lightning Dragon Blood",
+  "fluid.forgedinfire.molten_fire_dragonsteel": "Molten Fire Dragonsteel",
+  "fluid.forgedinfire.molten_ice_dragonsteel": "Molten Ice Dragonsteel",
+  "fluid.forgedinfire.molten_lightning_dragonsteel": "Molten Lightning Dragonsteel",
+  "item.forgedinfire.fire_dragon_blood_bucket": "Fire Dragon Blood Bucket",
+  "item.forgedinfire.ice_dragon_blood_bucket": "Ice Dragon Blood Bucket",
+  "item.forgedinfire.lightning_dragon_blood_bucket": "Lightning Dragon Blood Bucket",
+  "item.forgedinfire.molten_fire_dragonsteel_bucket": "Molten Fire Dragonsteel Bucket ",
+  "item.forgedinfire.molten_ice_dragonsteel_bucket": "Molten Ice Dragonsteel Bucket",
+  "item.forgedinfire.molten_lightning_dragonsteel_bucket": "Molten Lightning Dragonsteel Bucket"
 }

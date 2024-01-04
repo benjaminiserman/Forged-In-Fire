@@ -1,7 +1,7 @@
 package com.pouffy.forgedinfire.main.tools.data.sprite;
 
 import com.pouffy.forgedinfire.ForgedInFire;
-import com.pouffy.forgedinfire.main.tools.data.material.MaterialIds;
+import com.pouffy.forgedinfire.main.tools.data.material.ForgedMaterialIds;
 import net.minecraft.resources.ResourceLocation;
 import slimeknights.tconstruct.library.client.data.material.AbstractMaterialSpriteProvider;
 import slimeknights.tconstruct.library.client.data.spritetransformer.GreyToColorMapping;
@@ -16,44 +16,52 @@ public class ForgedMaterialSpriteProvider extends AbstractMaterialSpriteProvider
         return "Forged In Fire Materials";
     }
 
+    protected String genFolder(String material, int tintIndex) {
+        return "item/materials/generator/" + material + "_" + tintIndex;
+    }
     @Override
     protected void addAllMaterials() {
-        buildMaterial(MaterialIds.dragon_bone)
+        buildMaterial(ForgedMaterialIds.dragon_bone)
                 .meleeHarvest().ranged()
                 .fallbacks("bone", "rock")
                 .colorMapper(GreyToColorMapping.builderFromBlack().addARGB(63, 0xFF4c4a3f).addARGB(102, 0xFF807a68).addARGB(140, 0xFF969083).addARGB(178, 0xFFa39f93).addARGB(216, 0xFFa8a39b).addARGB(255, 0xFFc9c4bb).build());
-        buildMaterial(MaterialIds.wither_bone)
-                .meleeHarvest().ranged()
-                .fallbacks("bone", "rock")
-                .colorMapper(GreyToColorMapping.builderFromBlack().addARGB(63, 0xff1a1a1a).addARGB(102, 0xff2a2a2a).addARGB(140, 0xff303030).addARGB(178, 0xff353535).addARGB(216, 0xff363636).addARGB(255, 0xff424242).build());
-        buildMaterial(MaterialIds.dragon_scale)
+        buildMaterial(ForgedMaterialIds.dragon_scale)
                 .statType(RepairKitStats.ID, ExtraMaterialStats.ID)
                 .colorMapper(GreyToColorMapping.builderFromBlack().addARGB(63, 0xFF3D1C10).addARGB(102, 0xFF542716).addARGB(140, 0xFF893B25).addARGB(178, 0xFF9E492A).addARGB(216, 0xFFC65C35).addARGB(255, 0xFFD76B43).build());
-        ResourceLocation fireBaseTexture = ForgedInFire.getResource("generator/dragonsteel_fire");
-        ResourceLocation fireHighlightTexture = ForgedInFire.getResource("generator/dragonsteel_fire_highlight");
-        ResourceLocation fireBorderTexture = ForgedInFire.getResource("generator/dragonsteel_fire_border");
-        ResourceLocation iceBaseTexture = ForgedInFire.getResource("generator/dragonsteel_ice");
-        ResourceLocation iceHighlightTexture = ForgedInFire.getResource("generator/dragonsteel_ice_highlight");
-        ResourceLocation iceBorderTexture = ForgedInFire.getResource("generator/dragonsteel_ice_border");
-        buildMaterial(MaterialIds.iceDragonsteel)
+        ResourceLocation fire63 = ForgedInFire.getResource(genFolder("firedsteel", 63));
+        ResourceLocation ice63 = ForgedInFire.getResource(genFolder("icedsteel", 63));
+        ResourceLocation lightning63 = ForgedInFire.getResource(genFolder("lightningdsteel", 63));
+        ResourceLocation fire102 = ForgedInFire.getResource(genFolder("firedsteel", 102));
+        ResourceLocation ice102 = ForgedInFire.getResource(genFolder("icedsteel", 102));
+        ResourceLocation lightning102 = ForgedInFire.getResource(genFolder("lightningdsteel", 102));
+        ResourceLocation fire140 = ForgedInFire.getResource(genFolder("firedsteel", 140));
+        ResourceLocation ice140 = ForgedInFire.getResource(genFolder("icedsteel", 140));
+        ResourceLocation lightning140 = ForgedInFire.getResource(genFolder("lightningdsteel", 140));
+        ResourceLocation fire178 = ForgedInFire.getResource(genFolder("firedsteel", 178));
+        ResourceLocation ice178 = ForgedInFire.getResource(genFolder("icedsteel", 178));
+        ResourceLocation lightning178 = ForgedInFire.getResource(genFolder("lightningdsteel", 178));
+        buildMaterial(ForgedMaterialIds.iceDragonsteel)
                 .meleeHarvest().ranged().statType(RepairKitStats.ID, ExtraMaterialStats.ID)
                 .fallbacks("bone", "metal")
                 .transformer(GreyToSpriteTransformer.builderFromBlack()
-                        .addTexture( 63, iceBorderTexture,    0xFF4d6465).addTexture(102, iceBorderTexture)
-                        .addTexture(140, iceBaseTexture,      0xFFa1e7e0).addTexture(178, iceBaseTexture)
-                        .addTexture(216, iceHighlightTexture, 0xFFa1e7e0).addTexture(255, iceHighlightTexture)
+                        .addTexture( 63, ice63,    0xFF4d6465).addTexture(102, ice102)
+                        .addTexture(140, ice140,      0xFFa1e7e0).addTexture(178, ice178)
+                        .addARGB(216, 0xFFBAEAEC).addARGB(255, 0xFFFFFFFF)
                         .build());
-        buildMaterial(MaterialIds.fireDragonsteel)
+        buildMaterial(ForgedMaterialIds.fireDragonsteel)
                 .meleeHarvest().ranged().statType(RepairKitStats.ID, ExtraMaterialStats.ID)
                 .fallbacks("bone", "metal")
                 .transformer(GreyToSpriteTransformer.builderFromBlack()
-                        .addTexture( 63, fireBorderTexture,    0xFF241512).addTexture(102, fireBorderTexture)
-                        .addTexture(140, fireBaseTexture,      0xFF221a19).addTexture(178, fireBaseTexture)
-                        .addTexture(216, fireHighlightTexture, 0xFF383232).addTexture(255, fireHighlightTexture)
+                        .addTexture( 63, fire63,    0xFF241512).addTexture(102, fire102)
+                        .addTexture(140, fire140,      0xFF221a19).addTexture(178, fire178)
+                        .addARGB(216, 0xFFBD9FA7).addARGB(255, 0xFFEAD0D0)
                         .build());
-        buildMaterial(MaterialIds.lightningDragonsteel)
+        buildMaterial(ForgedMaterialIds.lightningDragonsteel)
                 .meleeHarvest().ranged().statType(RepairKitStats.ID, ExtraMaterialStats.ID)
                 .fallbacks("bone", "metal")
-                .colorMapper(GreyToColorMapping.builderFromBlack().addARGB(63, 0xFF2e103d).addARGB(102, 0xFF301654).addARGB(140, 0xFF342589).addARGB(178, 0xFF552a9e).addARGB(216, 0xFF6435c6).addARGB(255, 0xFF7943d7).build());
-    }
+                .transformer(GreyToSpriteTransformer.builderFromBlack()
+                        .addTexture( 63, lightning63,    0xFF9872d5).addTexture(102, lightning102)
+                        .addTexture(140, lightning140,      0xFF6f39c3).addTexture(178, lightning178)
+                        .addARGB(216, 0xFFCAA4DA).addARGB(255, 0xFFE5CBF7)
+                        .build());    }
 }

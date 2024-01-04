@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "item": "iceandfire:silver_pile"
+  },
+  "result": {
+    "fluid": "tconstruct:molten_silver",
+    "amount": 20
+  },
+  "temperature": 790,
+  "time": 40
+}

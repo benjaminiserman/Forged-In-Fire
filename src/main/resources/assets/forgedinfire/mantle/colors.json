@@ -1,0 +1,9 @@
+{
+  "modifier.forgedinfire": {
+    "dampening":    "#b7dfdd",
+    "flamed":       "#ff581c",
+    "iced":         "#5effff",
+    "lightning":    "#974fff",
+    "dreadbane":    "#263941"
+  }
+}

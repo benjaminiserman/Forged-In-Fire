@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "item": "iceandfire:dragonsteel_fire_helmet"
+  },
+  "result": {
+    "fluid": "forgedinfire:molten_fire_dragonsteel",
+    "amount": 450
+  },
+  "temperature": 700,
+  "time": 127
+}
