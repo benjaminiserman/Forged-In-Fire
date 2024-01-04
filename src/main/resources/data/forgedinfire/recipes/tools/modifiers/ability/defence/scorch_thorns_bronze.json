@@ -1,0 +1,32 @@
+{
+  "type": "tconstruct:modifier",
+  "inputs": [
+    {
+      "item": "iceandfire:dragonscales_bronze"
+    },
+    {
+      "item": "iceandfire:fire_dragon_blood"
+    },
+    {
+      "item": "iceandfire:dragonscales_bronze"
+    },
+    {
+      "tag": "forge:gems/emerald"
+    },
+    {
+      "tag": "forge:gems/emerald"
+    }
+  ],
+  "tools": {
+    "tag": "tconstruct:modifiable/armor/chestplate"
+  },
+  "slots": {
+    "defense": 1
+  },
+  "allow_crystal": true,
+  "result": {
+    "name": "forgedinfire:scorch_thorns_bronze",
+    "level": 1
+  },
+  "max_level": 1
+}

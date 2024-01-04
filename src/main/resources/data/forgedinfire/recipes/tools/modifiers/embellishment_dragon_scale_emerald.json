@@ -1,0 +1,23 @@
+{
+  "type": "tconstruct:swappable_modifier",
+  "inputs": [
+    {
+      "item": "iceandfire:dragonscales_emerald"
+    },             
+    {
+      "item": "iceandfire:dragonscales_emerald"
+    },            
+    {
+      "item": "iceandfire:dragonscales_emerald"
+    }
+  ],
+  "tools": [
+    {
+      "tag": "tconstruct:modifiable/embellishment/metal"
+    }
+  ],
+  "result": {
+    "name": "tconstruct:embellishment",
+    "value": "forgedinfire:dragon_scale#emerald"
+  }
+}

@@ -65,7 +65,7 @@ public class ForgedModule {
 
     /** Creative tab for items that do not fit in another tab */
     @SuppressWarnings("WeakerAccess")
-    public static final CreativeModeTab TAB_GENERAL = new SupplierCreativeTab(ForgedInFire.MOD_ID, "general", () -> new ItemStack(TinkerCommons.slimeball.get(SlimeType.ICHOR)));
+    public static final CreativeModeTab TAB_GENERAL = new SupplierCreativeTab(ForgedInFire.MOD_ID, "general", () -> new ItemStack(ForgedCommons.draconicWeaponry.get()));
 
     // base item properties
     protected static final Item.Properties HIDDEN_PROPS = new Item.Properties();

@@ -2,6 +2,46 @@
   "replace": false,
   "parts": [
     {
+      "path": "forgedinfire:item/tool/armor/plate/helmet_modifiers/tconstruct_embellishment_scale",
+      "statType": "forgedinfire:plate"
+    },
+    {
+      "path": "forgedinfire:item/tool/armor/plate/helmet_modifiers/tconstruct_embellishment_broken_scale",
+      "statType": "forgedinfire:plate"
+    },
+    {
+      "path": "forgedinfire:item/tool/armor/plate/chestplate_modifiers/tconstruct_embellishment_scale",
+      "statType": "forgedinfire:plate"
+    },
+    {
+      "path": "forgedinfire:item/tool/armor/plate/chestplate_modifiers/tconstruct_embellishment_broken_scale",
+      "statType": "forgedinfire:plate"
+    },
+    {
+      "path": "forgedinfire:item/tool/armor/plate/leggings_modifiers/tconstruct_embellishment_scale",
+      "statType": "forgedinfire:plate"
+    },
+    {
+      "path": "forgedinfire:item/tool/armor/plate/leggings_modifiers/tconstruct_embellishment_broken_scale",
+      "statType": "forgedinfire:plate"
+    },
+    {
+      "path": "forgedinfire:item/tool/armor/plate/boot_modifiers/tconstruct_embellishment_scale",
+      "statType": "forgedinfire:plate"
+    },
+    {
+      "path": "forgedinfire:item/tool/armor/plate/boot_modifiers/tconstruct_embellishment_broken_scale",
+      "statType": "forgedinfire:plate"
+    },
+    {
+      "path": "forgedinfire:models/armor/plate/layer_1_scale",
+      "statType": "forgedinfire:plate"
+    },
+    {
+      "path": "forgedinfire:models/armor/plate/layer_2_scale",
+      "statType": "forgedinfire:plate"
+    },
+    {
       "path": "forgedinfire:item/tool/glaive/head",
       "statType": "tconstruct:head"
     },

@@ -1,0 +1,32 @@
+{
+  "type": "tconstruct:modifier",
+  "inputs": [
+    {
+      "item": "iceandfire:dragonscales_amythest"
+    },
+    {
+      "item": "iceandfire:lightning_dragon_blood"
+    },
+    {
+      "item": "iceandfire:dragonscales_amythest"
+    },
+    {
+      "tag": "forge:gems/amethyst"
+    },
+    {
+      "tag": "forge:gems/amethyst"
+    }
+  ],
+  "tools": {
+    "tag": "tconstruct:modifiable/armor/chestplate"
+  },
+  "slots": {
+    "defense": 1
+  },
+  "allow_crystal": true,
+  "result": {
+    "name": "forgedinfire:shock_thorns_amethyst",
+    "level": 1
+  },
+  "max_level": 1
+}

@@ -6,6 +6,7 @@ import net.minecraft.resources.ResourceLocation;
 import slimeknights.tconstruct.library.client.data.material.AbstractMaterialSpriteProvider;
 import slimeknights.tconstruct.library.client.data.spritetransformer.GreyToColorMapping;
 import slimeknights.tconstruct.library.client.data.spritetransformer.GreyToSpriteTransformer;
+import slimeknights.tconstruct.tools.data.sprite.TinkerPartSpriteProvider;
 import slimeknights.tconstruct.tools.stats.ExtraMaterialStats;
 import slimeknights.tconstruct.tools.stats.RepairKitStats;
 
@@ -41,7 +42,7 @@ public class ForgedMaterialSpriteProvider extends AbstractMaterialSpriteProvider
         ResourceLocation ice178 = ForgedInFire.getResource(genFolder("icedsteel", 178));
         ResourceLocation lightning178 = ForgedInFire.getResource(genFolder("lightningdsteel", 178));
         buildMaterial(ForgedMaterialIds.iceDragonsteel)
-                .meleeHarvest().ranged().statType(RepairKitStats.ID, ExtraMaterialStats.ID)
+                .meleeHarvest().ranged().statType(RepairKitStats.ID, ExtraMaterialStats.ID, TinkerPartSpriteProvider.PLATE)
                 .fallbacks("bone", "metal")
                 .transformer(GreyToSpriteTransformer.builderFromBlack()
                         .addTexture( 63, ice63,    0xFF4d6465).addTexture(102, ice102)
@@ -49,7 +50,7 @@ public class ForgedMaterialSpriteProvider extends AbstractMaterialSpriteProvider
                         .addARGB(216, 0xFFBAEAEC).addARGB(255, 0xFFFFFFFF)
                         .build());
         buildMaterial(ForgedMaterialIds.fireDragonsteel)
-                .meleeHarvest().ranged().statType(RepairKitStats.ID, ExtraMaterialStats.ID)
+                .meleeHarvest().ranged().statType(RepairKitStats.ID, ExtraMaterialStats.ID, TinkerPartSpriteProvider.PLATE)
                 .fallbacks("bone", "metal")
                 .transformer(GreyToSpriteTransformer.builderFromBlack()
                         .addTexture( 63, fire63,    0xFF241512).addTexture(102, fire102)
@@ -57,7 +58,7 @@ public class ForgedMaterialSpriteProvider extends AbstractMaterialSpriteProvider
                         .addARGB(216, 0xFFBD9FA7).addARGB(255, 0xFFEAD0D0)
                         .build());
         buildMaterial(ForgedMaterialIds.lightningDragonsteel)
-                .meleeHarvest().ranged().statType(RepairKitStats.ID, ExtraMaterialStats.ID)
+                .meleeHarvest().ranged().statType(RepairKitStats.ID, ExtraMaterialStats.ID, TinkerPartSpriteProvider.PLATE)
                 .fallbacks("bone", "metal")
                 .transformer(GreyToSpriteTransformer.builderFromBlack()
                         .addTexture( 63, lightning63,    0xFF9872d5).addTexture(102, lightning102)

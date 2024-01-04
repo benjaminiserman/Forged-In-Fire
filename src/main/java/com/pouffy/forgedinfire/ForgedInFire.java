@@ -1,6 +1,7 @@
 package com.pouffy.forgedinfire;
 
 import com.mojang.logging.LogUtils;
+import com.pouffy.forgedinfire.main.CommonRecipeProvider;
 import com.pouffy.forgedinfire.main.ForgedClient;
 import com.pouffy.forgedinfire.main.ForgedCommons;
 import com.pouffy.forgedinfire.main.ForgedTags;
@@ -75,6 +76,7 @@ public class ForgedInFire
     static void gatherData(final GatherDataEvent event) {
         DataGenerator datagenerator = event.getGenerator();
         ExistingFileHelper existingFileHelper = event.getExistingFileHelper();
+        datagenerator.addProvider(new CommonRecipeProvider(datagenerator));
         datagenerator.addProvider(new SmelteryRecipeProvider(datagenerator));
         BlockTagProvider blockTags = new BlockTagProvider(datagenerator, existingFileHelper);
         datagenerator.addProvider(new ItemTagProvider(datagenerator, blockTags, existingFileHelper));
