@@ -1,0 +1,13 @@
+{
+  "type": "tconstruct:damagable_melting",
+  "ingredient": {
+    "item": "iceandfire:dragonsteel_fire_shovel"
+  },
+  "result": {
+    "fluid": "forgedinfire:molten_fire_dragonsteel",
+    "amount": 90,
+    "unit_size": 10
+  },
+  "temperature": 1250,
+  "time": 74
+}

@@ -1,0 +1,18 @@
+{
+  "type": "tconstruct:damagable_melting",
+  "ingredient": [
+    {
+      "item": "iceandfire:dragonsteel_lightning_sword"
+    },
+    {
+      "item": "iceandfire:dragonsteel_lightning_hoe"
+    }
+  ],
+  "result": {
+    "fluid": "forgedinfire:molten_lightning_dragonsteel",
+    "amount": 180,
+    "unit_size": 10
+  },
+  "temperature": 1250,
+  "time": 74
+}

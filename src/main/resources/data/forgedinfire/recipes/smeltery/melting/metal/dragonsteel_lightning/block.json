@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "tag": "forge:storage_blocks/dragonsteel_lightning"
+  },
+  "result": {
+    "fluid": "forgedinfire:molten_lightning_dragonsteel",
+    "amount": 810
+  },
+  "temperature": 1250,
+  "time": 221
+}

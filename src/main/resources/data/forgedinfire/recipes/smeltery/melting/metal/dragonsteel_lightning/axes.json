@@ -1,0 +1,18 @@
+{
+  "type": "tconstruct:damagable_melting",
+  "ingredient": [
+    {
+      "item": "iceandfire:dragonsteel_lightning_axe"
+    },
+    {
+      "item": "iceandfire:dragonsteel_lightning_pickaxe"
+    }
+  ],
+  "result": {
+    "fluid": "forgedinfire:molten_lightning_dragonsteel",
+    "amount": 270,
+    "unit_size": 10
+  },
+  "temperature": 1250,
+  "time": 74
+}

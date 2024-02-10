@@ -1,0 +1,14 @@
+{
+  "type": "tconstruct:casting_table",
+  "cast": {
+    "tag": "tconstruct:casts/multi_use/ingot"
+  },
+  "fluid": {
+    "tag": "forgedinfire:molten_lightning_dragonsteel",
+    "amount": 90
+  },
+  "result": {
+    "tag": "forge:ingots/dragonsteel_lightning"
+  },
+  "cooling_time": 65
+}

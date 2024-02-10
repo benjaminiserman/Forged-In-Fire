@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "tag": "forge:ingots/dragonsteel_fire"
+  },
+  "result": {
+    "fluid": "forgedinfire:molten_fire_dragonsteel",
+    "amount": 90
+  },
+  "temperature": 1250,
+  "time": 74
+}

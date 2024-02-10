@@ -1,0 +1,15 @@
+{
+  "type": "tconstruct:casting_table",
+  "cast": {
+    "tag": "tconstruct:casts/single_use/ingot"
+  },
+  "cast_consumed": true,
+  "fluid": {
+    "tag": "forgedinfire:molten_fire_dragonsteel",
+    "amount": 90
+  },
+  "result": {
+    "tag": "forge:ingots/dragonsteel_fire"
+  },
+  "cooling_time": 65
+}
